@@ -131,10 +131,16 @@ li a:hover{
     /* box-shadow: black 0 0 5px; */
     
 }
+figure{
+    margin: auto;
+    text-align: center;
+    
+}
 
 figure a{
     
     width: 40%;
+    
        
 }
 
