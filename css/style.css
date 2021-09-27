@@ -126,25 +126,37 @@ li a:hover{
 
 .limitador {
     max-width: 100%;
-    width: 90;
+    width: 90vw;
     margin: auto;
     /* box-shadow: black 0 0 5px; */
     
 }
 
-figure a img{
+figure a{
     
     width: 40%;
-    border-radius: 10%;
+       
+}
+
+figure img{
     box-shadow: black 2px 2px 6px;
-    
+    border-radius: 10%;
+    width: 40%;
+    max-width: 300px;
 }
 
 
 @media screen and (min-width: 600px) {
-    figure img{
+    figure a{
        width: 22%;
+       max-width: 300px;
              
+    }
+
+    figure img{
+        max-width: 300px;
+        width: 22%;
+
     }
     
 }
