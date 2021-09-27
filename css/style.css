@@ -1,0 +1,150 @@
+*, *::after, *::before {box-sizing: border-box;}
+
+html, p, a, body, img, ul, li{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-size: 16px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Gemunu Libre', sans-serif;
+    font-weight: lighter;
+    background-color: whitesmoke;   
+
+}
+
+header{
+    height: 120px;
+    max-height: 30vh;
+    background-color: teal;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0; right: 0; left: 0;
+}
+
+h1{
+    font-size: 3rem;
+    text-shadow: black 2px 2px 5px;
+    color: white;
+}
+
+article{
+    padding: 0 1rem;
+    padding-top: 120px;
+    padding-bottom: 3rem;
+}
+
+footer{
+    align-self: flex-end;
+    padding: 3px 0;
+    height: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.foto{
+    
+    border-radius: 50%;
+    border: white solid .5rem;
+    box-shadow: black 0 0 20px;
+    max-height: 80%;
+    height: 100px;   
+        
+}
+
+p{
+    padding-bottom: 2rem;
+    text-align: justify;
+    /* text-indent: 1rem; */
+}
+
+h2{
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: black 1px 1px 2px;
+    color: teal;
+}
+
+
+li{
+    
+    list-style: none;   
+}
+
+li a{
+    display: block;
+    display: flex;
+    justify-content: center;
+    
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    margin:5px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: black 1px 1px 2px;
+    height: 30px;
+    background-color: teal;
+    box-shadow: black 1px 1px 2px ; 
+}
+
+li a:hover{
+    background-color: black;
+}
+
+#titulo{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#centro{
+    width: 30%;
+    height: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#menu{
+    width: 30%;
+    height: 100%;
+}
+
+.limitador {
+    max-width: 100%;
+    width: 90;
+    margin: auto;
+    /* box-shadow: black 0 0 5px; */
+    
+}
+
+figure a img{
+    
+    width: 40%;
+    border-radius: 10%;
+    box-shadow: black 2px 2px 6px;
+    
+}
+
+
+@media screen and (min-width: 600px) {
+    figure img{
+       width: 22%;
+             
+    }
+    
+}
