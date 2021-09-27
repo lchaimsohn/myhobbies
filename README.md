@@ -1,2 +1,2 @@
 # myhobbies
-Estou mostrando um pouco do que eu gosto de fazer. 
+##Estou praticando um pouco de HTML, CSS e JS, mostrando um pouco das outras coisas que gosto de fazer.
